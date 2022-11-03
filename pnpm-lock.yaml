@@ -1,0 +1,12 @@
+dependencies:
+  react-icons: 4.6.0
+lockfileVersion: 5.2
+packages:
+  /react-icons/4.6.0:
+    dev: false
+    peerDependencies:
+      react: '*'
+    resolution:
+      integrity: sha512-rR/L9m9340yO8yv1QT1QurxWQvWpbNHqVX0fzMln2HEb9TEIrQRGsqiNFQfiv9/JEUbyHmHPlNTB2LWm2Ttz0g==
+specifiers:
+  react-icons: ^4.6.0

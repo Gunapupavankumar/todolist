@@ -1,0 +1,80 @@
+.todo-item-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+}
+
+.row-success {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+}
+
+.success-container {
+  width: 100%;
+}
+
+.checkbox-label {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  width: 82%;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+.delete-icon-container {
+  text-align: right;
+  width: 18%;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.user-heading {
+  font-family: "Roboto";
+}
+
+.sort-by {
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+.label-container {
+  width: 100%;
+  border-style: solid;
+  border-color: rgb(60, 60, 161);
+  border-right: none;
+  border-top: none;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.todo-item-hide-container {
+  display: none;
+}
+
+.todo-user-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sort-by-container {
+  display: flex;
+  flex-direction: row;
+}

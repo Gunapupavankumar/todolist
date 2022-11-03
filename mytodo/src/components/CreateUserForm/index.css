@@ -1,0 +1,150 @@
+.registration-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sort-by-select {
+  height: 25px;
+  width: 100px;
+  margin: 5px;
+}
+
+.sort-by-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  margin-left: 100px;
+}
+
+.title {
+  display: none;
+}
+
+.form-little-container {
+  font-size: 48px;
+  color: #ea580c;
+  font-weight: 500;
+}
+
+.view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 550px;
+  padding: 20px;
+  border-radius: 16px;
+  min-height: 310px;
+  box-shadow: 0px 4px 16px rgb(104, 96, 96);
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+
+.name-input-field {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 500;
+  border: 1px solid #cbd2d9;
+  color: #9aa5b1;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.create-input {
+  height: 45px;
+  width: 450px;
+  padding-left: 25px;
+  font-family: "Roboto";
+}
+
+.button-add {
+  font-family: "Roboto";
+  border: none;
+  background-color: rgb(60, 60, 161);
+  color: white;
+  height: 45px;
+  margin: 10px;
+  width: 70px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.button-show {
+  font-family: "Roboto";
+  border: none;
+  background-color: rgb(60, 60, 161);
+  color: white;
+  height: 30px;
+  margin: 10px;
+  width: 70px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.submit-button {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #ffffff;
+  padding: 8px 16px;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: rgb(60, 60, 161);
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.error-field {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+
+.row-success {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
